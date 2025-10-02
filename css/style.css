@@ -1,0 +1,472 @@
+ body{
+    
+     font-family: "Montserrat", sans-serif;
+     font-optical-sizing: auto;
+     font-weight:700;
+     font-style:normal;  
+ }
+ 
+ ul{ 
+    list-style-type: none;
+ }
+ .topbar li{
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+ }
+ .fs-7{
+    font-size: 0.9rem;
+ }
+ .navbar li{
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 1rem;
+ }
+ .navbar li i{
+   font-size: 1.3rem;
+   position: relative;
+   top: -0.3rem;
+ }
+ .navbar img{
+    width: 15rem;   
+
+ }
+ .navbar {
+  position: absolute;
+  width: 100%;
+}
+.carousal{
+  position: relative;
+  top: -4rem;
+}
+.menu{
+  padding: 0rem;
+  position: relative;
+  width: 57rem;
+}
+.logo{
+  position: absolute;
+  top: 1rem;
+}
+ 
+ .carousel-caption h2{
+   font-weight: 700;
+   color: #eab830;
+   font-size: 3rem;
+   top: -8rem;
+   position: relative;
+   right: 10rem;
+
+ }
+ .carousel-caption h1{
+   width: 100%;
+   font-weight: 700;
+   font-size: 4.5rem;
+   top: -9rem;
+   position: relative;
+   right: 12rem;
+ }
+ .carousel-caption button{
+   font-weight: 500;
+   font-size: 1.2rem;
+   width: 17rem;
+   height: 3.7rem;
+   border: .15rem solid white;
+   border-radius: 10rem;
+   right: 12rem;
+   position: relative;
+   top: -7rem;
+ }
+ .icons{
+   position: relative;
+   top: -8rem;
+   color: white;
+   column-gap: 1rem;
+   border-radius: 5px;
+ }
+ .icon1{
+   background-color: #10C45C;
+   border-radius: 5%;
+ }
+.icon1 i{
+   position: relative;
+   top: 1.5rem;
+   left: 4rem;
+   font-size: 4rem;
+} 
+.icon1 p{
+   margin: 0;
+   padding: 2rem;
+   font-size: 1.2rem;
+   font-weight: 500;
+}
+ .icon2{
+ background-color: #1EC1D9;
+ border-radius: 5%;
+ }
+ .icon2 i{
+   position: relative;
+   top: 1.5rem;
+   left: 4rem;
+   font-size: 4rem;
+ }
+ .icon2 p{
+   margin: 0;
+   padding: 2rem;
+   font-size: 1.2rem;
+   font-weight: 500;
+ }
+ .icon3{
+ background-color: #307AD5;
+ border-radius: 5%;
+ }
+ .icon3 i{
+   position: relative;
+   top: 1.5rem;
+   left: 4rem;
+   font-size: 4rem;
+ }
+ .icon3 p{
+   margin: 0;
+   padding: 2rem;
+   font-size: 1.2rem;
+   font-weight: 500;
+ }
+ .icon4{
+background-color: #EAB830;
+border-radius: 5%;
+ }
+ .icon4 i{
+   position: relative;
+   top: 1.5rem;
+   left: 4rem;
+   font-size: 4rem;
+ }
+ .icon4 p{
+   margin: 0;
+   padding: 2rem;
+   font-size: 1.2rem;
+   font-weight: 500;
+ }
+ .icon5{
+background-color: #D94DA6;
+border-radius: 5%;
+ }
+ .icon5 i{
+   position: relative;
+   top: 1.5rem;
+   left: 4rem;
+   font-size: 4rem;
+ }
+ .icon5 p{
+   margin: 0;
+   padding: 2rem;
+   font-size: 1.2rem;
+   font-weight: 500;
+ }
+ .cardsss{
+  padding-top: 2rem;
+  column-gap: 1rem;
+ }
+ 
+ .card1 {
+  /* background-image: url(/images/card1.png); */
+  border-radius: 5%;
+  position: relative;
+  overflow: hidden;
+}
+ .card2{
+  background-image: url(/images/card2.png);
+  width: 18rem;
+  height: 22rem;
+  border-radius: 5%;
+ }
+ .card3{
+  background-image: url(/images/card3.jpeg);
+  width: 18rem;
+  height: 22rem;
+  border-radius: 5%;
+ }
+ .card4{
+  background-image: url(/images/card4.jpg);
+  width: 18rem;
+  height: 22rem;
+  border-radius: 5%;
+ }
+
+
+ .card5{
+  background-image: url(/images/card5.png);
+  width: 18rem;
+  height: 22rem;
+  border-radius: 5%;
+ }
+ .card6{
+  background-image: url(/images/card6.jpg);
+  width: 18rem;
+  height: 22rem;
+  border-radius: 5%;
+ }
+ .card7{
+  background-image: url(/images/card7.jpeg);
+  width: 18rem;
+  height: 22rem;
+  border-radius: 5%;
+ }
+ .card8{
+  background-image: url(/images/card8.jpg);
+  width: 18rem;
+  height: 22rem;
+  border-radius: 5%;
+ }
+ .btn2{
+  margin: 2rem;
+  position: relative;
+  border-radius: 25px;
+  left: 30rem;
+ }
+ .achievement{
+  background-image: url(/images/achivements\ \(1\).jpg);
+   height: 40rem;
+   background-repeat: round;
+   color: white;
+    
+ }
+ .achievement h1{
+  text-align: center;
+  position: relative;
+  top: 10rem;
+  font-size: 3rem;
+ }
+ .achievement p{
+  text-align: center;
+  position: relative;
+  top: 12rem;
+ }
+ .fills{
+  column-gap: 10rem;
+    position: relative;
+    font-size: 4rem;
+    top: 14rem;
+    right: -1rem;
+ }
+ .fills h1{
+  color: #eab830;
+    position: relative;
+    top: 0rem;
+    left: -2rem;
+    font-weight: 700;
+    font-size: 3rem;
+ }
+ .fills p{
+  top: -0.5rem;
+  font-size: 0.8rem;
+  right: 2rem;
+ }
+ .demo{
+  background-image: url(/images/backgroundd.jpg);
+  height: 50rem;
+  background-position-x: center;
+ }
+ .demotex button{
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+ }
+ .demotex h1{
+  font-size: 4rem;
+    font-weight: 650;
+ }
+ .demotex p{
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+ }
+ .demotex h5{
+  margin-top: 1rem;
+ }
+ .demo img{
+  position: relative;
+  top: 4.4rem;
+  left: 10rem;
+ }
+ .cardss2{
+  top: -21rem;
+ }
+ .newsletter{
+  padding: 3rem;
+  background-color: #2C75E4;
+  color: white;
+
+ }
+ .newsletter h3{
+  font-weight: 400;
+  font-size: 1.2rem;
+ }
+ .newsletter h5{
+  font-weight: 300;
+  font-size: 1rem;
+  padding: 0.4rem;
+  padding-left: 2rem;
+ }
+ .newsletter p{
+  font-weight: 100;
+ }
+ .newsletter   .btn {
+  min-height: 50px; 
+  border-radius:0;
+  background: #243c4f;
+  color: #fff;
+  font-weight:600;
+  }
+  .input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    padding-left: 2rem;
+}
+.blog h1{
+  font-weight: 700;
+  text-align: center;
+  padding: 5rem;
+}
+.blogcard{
+column-gap: 2rem;
+}
+.footer{
+  background-color: #273044;
+  color: white;
+}
+.footer h6{
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-bottom: 1.5rem;
+}
+.listone {
+  --bs-list-group-color: rgb(252, 253, 255);
+  
+  --bs-list-group-border-color: var(--bs-border-color);
+  --bs-list-group-border-width: var(--bs-border-width);
+  --bs-list-group-border-radius: var(--bs-border-radius);
+  --bs-list-group-item-padding-x: 1rem;
+  --bs-list-group-item-padding-y: 0.5rem;
+  --bs-list-group-action-color: var(--bs-secondary-color);
+  --bs-list-group-action-hover-color: var(--bs-emphasis-color);
+  --bs-list-group-action-hover-bg: var(--bs-tertiary-bg);
+  --bs-list-group-action-active-color: var(--bs-body-color);
+  --bs-list-group-action-active-bg: var(--bs-secondary-bg);
+  --bs-list-group-disabled-color: var(--bs-secondary-color);
+  --bs-list-group-disabled-bg: var(--bs-body-bg);
+  --bs-list-group-active-color: #fff;
+  --bs-list-group-active-bg: #0d6efd;
+  --bs-list-group-active-border-color: #0d6efd;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  border-radius: var(--bs-list-group-border-radius);
+}
+.about{
+  padding-top: 4rem;
+}
+.about p{
+  font-size: .9rem;
+    font-weight: 300;
+    line-height: 1.2rem;
+}
+.about button{
+  margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+.pages{
+  padding-top: 4rem;
+}
+.pages li{
+  font-size: 0.8rem
+}
+.popular{
+  padding-top: 4rem;
+}
+.popular h5{
+  position: relative;
+  top: 0.5rem;
+  right: 0.7rem;
+  font-size: 1rem;
+}
+.popular img{
+  width: 3.6rem;
+    margin: .5rem;
+}
+.contact{
+  padding-top: 4rem;
+}
+.contact li{
+  font-size: 0.9rem;
+}
+.contact li i{
+  padding-right: 1rem;
+}
+.contact ul{
+  padding: 0;
+}
+.textbox{
+  color: white;
+}
+
+.card2 h6{
+  position: relative;
+    left: 0.6rem;
+    top: 14rem;
+}
+.card3 h6{
+  position: relative;
+    left: 0.6rem;
+    top: 14rem;
+}
+.card4 h6{
+  position: relative;
+    left: 0.6rem;
+    top: 14rem;
+}
+.card5 h6{
+  position: relative;
+    left: 0.6rem;
+    top: 14rem;
+}
+.card6 h6{
+  position: relative;
+    left: 0.6rem;
+    top: 14rem;
+}
+.card7 h6{
+  position: relative;
+    left: 0.6rem;
+    top: 14rem;
+}
+.card8 h6{
+  position: relative;
+    left: 0.6rem;
+    top: 14rem;
+}
+.card1 img {
+  width: 100%;
+  min-height: 350px;
+  object-fit: cover;
+  border-radius: 5%;
+}
+.textbox {
+  position: absolute;
+  z-index: 1;
+  bottom: -90px;
+  left: 0;
+  right: 0;
+  /* top: 0; */
+  background: linear-gradient(180deg, rgba(0, 25, 49, 0) 0, rgba(0, 25, 49, .9) 100%);
+}
+.card1:hover .textbox{
+  bottom: 0;
+}
+
+
